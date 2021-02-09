@@ -53,7 +53,7 @@ def spel() :
          |
     _____|""")
 
-           print("Je hebt verloren! Het woord was:" + GeheimWoord)
+       print("Je hebt verloren! Het woord was:" + GeheimWoord)
         print("Je kan het nog een keer proberen, type ja of nee")
 
 
@@ -88,3 +88,9 @@ def spel() :
        
        if userGuess == nee:
        quit()
+       else:
+         if userGuess in GeheimWoord:
+           for idx, letter in enumerate(GeheimWoord):
+          
+          if(letter == userGuess):
+            streepjes[idx] = userGuess
