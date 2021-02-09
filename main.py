@@ -55,3 +55,6 @@ def spel() :
 
            print("Je hebt verloren! Het woord was:" + GeheimWoord)
         print("Je kan het nog een keer proberen, type ja of nee")
+
+
+ woordenlijst = ["informatica", "informatiekunde", "spelletje", "aardigheidje", "scholier", "fotografie", "waardebepaling", "specialiteit", "verzekering", "universiteit", "heesterperk"]
