@@ -82,3 +82,9 @@ def spel() :
       print()
       print("Wil je nog een keer spelen? Type dan ja of nee!")
       print("Goed gedaan!!! je had alleen deze letters nodig om het woord te raden")
+
+       if userGuess == ja:
+       spel()
+       
+       if userGuess == nee:
+       quit()
