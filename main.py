@@ -74,3 +74,11 @@ def spel() :
   print("Raad de letters en als je het woord weet typ het dan in.")
   print()
   print("het woord heeft " + str(lengtewoord) + " letters")
+
+  while game == True:
+    userGuess = input("raad een letter of het woord: ")
+    if userGuess == GeheimWoord:
+      print ("gefeliciteerd", "je hebt het woord geraden")
+      print()
+      print("Wil je nog een keer spelen? Type dan ja of nee!")
+      print("Goed gedaan!!! je had alleen deze letters nodig om het woord te raden")
