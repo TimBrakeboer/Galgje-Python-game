@@ -60,3 +60,17 @@ def spel() :
  woordenlijst = ["informatica", "informatiekunde", "spelletje", "aardigheidje", "scholier", "fotografie", "waardebepaling", "specialiteit", "verzekering", "universiteit", "heesterperk"]
 
   MogelijkeLetters = "a", "b", "c", "d", "", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
+
+    
+  GeheimWoord= random.choice(woordenlijst)
+  lengtewoord = len(GeheimWoord)
+  streepjes = [" - "] *lengtewoord
+  ja = "ja"
+  nee = "nee"
+ 
+
+  game = True
+
+  print("Raad de letters en als je het woord weet typ het dan in.")
+  print()
+  print("het woord heeft " + str(lengtewoord) + " letters")
