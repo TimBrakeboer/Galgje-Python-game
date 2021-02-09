@@ -52,3 +52,6 @@ def spel() :
      / \ |
          |
     _____|""")
+
+           print("Je hebt verloren! Het woord was:" + GeheimWoord)
+        print("Je kan het nog een keer proberen, type ja of nee")
